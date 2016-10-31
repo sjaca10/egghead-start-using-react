@@ -1,0 +1,26 @@
+{
+  "name": "egghead-start-using-react",
+  "version": "1.0.0",
+  "description": "Start Using React to Build Web Applications course implementation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjaca10/egghead-start-using-react.git"
+  },
+  "author": "Javier Aguila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjaca10/egghead-start-using-react/issues"
+  },
+  "homepage": "https://github.com/sjaca10/egghead-start-using-react#readme",
+  "dependencies": {
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
