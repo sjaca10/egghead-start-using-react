@@ -19,8 +19,8 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <NumInput 
-                    ref="red" 
+                <NumInput
+                    ref="red"
                     min={0}
                     max={255}
                     step={0.01}
