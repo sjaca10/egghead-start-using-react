@@ -9,14 +9,12 @@ class App extends React.Component {
             err: '',
         }
 
-        this.upate = this.update.bind(this);
+        this.update = this.update.bind(this);
     }
 
     update(e) {
-        console.log(this);
         let code = e.target.value;
         try {
-            console.log(this);
             this.setState({
                 output: babel.transform(code, {
                     stage: 0,
@@ -24,10 +22,9 @@ class App extends React.Component {
                     comments: true,
                 }).code,
                 err: ''
-            })
+            });
         }
         catch(err) {
-            console.log(this);
             this.setState({err: err.message})
         }
     }
